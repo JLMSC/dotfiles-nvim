@@ -5,6 +5,7 @@ This repository contains all my configurations for [**Neovim**](https://neovim.i
 npm
 
 ### Dependencies
-pyright
-lua-language-server
-clangd
+- pyright
+- lua-language-server
+- clangd
+- ttf-font-awesome
