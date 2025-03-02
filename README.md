@@ -19,6 +19,9 @@ However, feel free to modify it to suit your needs.
 - [**nvim-treesitter**](https://github.com/nvim-treesitter/nvim-treesitter)
 - [**todo-comments**](https://github.com/folke/todo-comments.nvim)
 
+### TODO
+- [ ] Add DAP.
+
 ### Usage
 Just move the files on this repository to `~/.config/nvim/`
 > Pro tip: Make sure you have Neovim installed.
