@@ -19,7 +19,6 @@ M.dap.adapters.python = function(cb, config)
 	    type = "executable",
 	    -- NOTE: This should point to the .venv inside ~/.config/nvim
 	    -- NOTE: Make sure debugpy is installed with pip
-	    --command = "~/.config/nvim/.venv/debugpy/bin/python",
 	    command = vim.fn.expand("~/.config/nvim/.venv/debugpy/bin/python"),
 	    args = { "-m", "debugpy.adapter" },
 	    options = {
