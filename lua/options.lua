@@ -7,7 +7,7 @@ g.maplocalleader = " "
 
 opt.clipboard = "unnamedplus"
 opt.cmdheight = 2
-opt.colorcolumn = "100"
+opt.colorcolumn = "120"
 opt.confirm = true
 opt.cursorline = true
 opt.ignorecase = true
