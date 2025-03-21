@@ -9,13 +9,13 @@ However, feel free to modify it to suit your needs.
 #### Python Related
 - [**pyright**](https://microsoft.github.io/pyright/#/)
 - [**debugpy**](https://github.com/microsoft/debugpy)
-<br>
+
 #### C/C++ Related
 - [**clangd**](https://clangd.llvm.org/)
-<br>
+
 #### Lua
 - [**lua-language-server**](https://luals.github.io/)
-<br>
+
 #### Optional
 - [**ttf-font-awesome**](https://fontawesome.com/) - Their icons are being used on todo-comments.
 
