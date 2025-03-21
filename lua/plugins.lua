@@ -4,5 +4,6 @@ return {
     "plugins.nvim-treesitter",
     "plugins.nvim-colorizer",
     "plugins.nvim-lspconfig",
-    "plugins.todo-comments"
+    "plugins.todo-comments",
+    "plugins.nvim-dap",
 }
