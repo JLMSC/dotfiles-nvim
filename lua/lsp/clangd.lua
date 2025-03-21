@@ -61,7 +61,8 @@ function M.clangd_setup()
 	cmd = { "clangd" },
 	filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
 	root_dir = function(fname)
-	    return M.util.root_pattern(unpack(M.root_files))(fname) or vim.fs.dirname(vim.fs.find(".git", { path = fname, upward = true })[1])
+	    return M.util.root_pattern(unpack(M.root_files))(fname)
+		    or vim.fs.dirname(vim.fs.find(".git", { path = fname, upward = true })[1])
 	end,
 	single_file_support = true,
 	capabilities = {
