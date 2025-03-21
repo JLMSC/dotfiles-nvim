@@ -21,7 +21,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y lua5.1 luarocks
           luarocks install --local luacheck
+          echo "$HOME/.luarocks/bin" >> $GITHUB_PATH
 
       - name: Run Luacheck
         run: |
-          luacheck .
+          luacheck . --ignore vim
